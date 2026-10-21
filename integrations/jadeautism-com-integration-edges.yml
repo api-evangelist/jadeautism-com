@@ -1,0 +1,22 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/jadeautism-com/integrations
+- https://zapier.com/apps/jadeautism/integrations
+- https://zapier.com/apps/jade-autism/integrations
+- https://n8n.io/integrations/jadeautism-com/
+- https://n8n.io/integrations/jadeautism/
+- https://composio.dev/toolkits/jadeautism-com
+- https://monid.ai/tools/jadeautism-com
+checked:
+- https://composio.dev/toolkits/jadeautism-com
+- https://monid.ai/tools/jadeautism-com
+- https://n8n.io/integrations/jadeautism-com/
+- https://n8n.io/integrations/jadeautism/
+- https://zapier.com/apps/jade-autism/integrations
+- https://zapier.com/apps/jadeautism-com/integrations
+- https://zapier.com/apps/jadeautism/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

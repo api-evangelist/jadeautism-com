@@ -1,0 +1,66 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 2
+  other_domain: 2
+  platform: 1
+  roles:
+  - api
+  - identity
+  - source
+  - website
+hosts:
+- host: api.jadeautism.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: jadeautism.com
+  role: api
+  relation: own
+- host: api.jadend.tech
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: jadend.tech
+  role: api
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: jadeautism.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: jadeautism.com
+  role: website
+  relation: own
+- host: www.jadend.tech
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Login
+  - Blog
+  serves: []
+  registrable_domain: jadend.tech
+  role: identity
+  relation: other-domain
